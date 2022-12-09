@@ -8,7 +8,7 @@
 
 <cfif #foundUser#>
   dogru kullanıcı
-  <cflocation  url="./user.cfm?id=#users[foundUser].id#">
+  <cflocation  url="../user.cfm?id=#users[foundUser].id#">
   <cfelse>
     yanlış
     <cflocation  url="./login.cfm">  
