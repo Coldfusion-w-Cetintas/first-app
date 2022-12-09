@@ -1,11 +1,12 @@
 <form style=
-  "width: 50%;
+  "width: 20%;
   margin: auto;
-  text-align: center;
+  
   "
   action="/CFIDE/first-app/login/login.controller.cfm">
 
-  <label for="username"><strong>Kullanici ismi:</strong></label>
+  <label for="username"><strong>Kullanici ismi</strong></label>
+  <br/>
   <input style="
     border: 1px solid #BCBCBB;
     outline: none;
@@ -17,7 +18,8 @@
   <br/>
   <br/>
 
-  <label for="username"><strong>Password:</strong></label>
+  <label for="username"><strong>Password</strong></label>
+  <br/>
   <input style="
     border: 1px solid #BCBCBB;
     outline: none;
