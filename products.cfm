@@ -1,3 +1,4 @@
+<cfinclude  template="./components/products.cfm">
 <cfinclude  template="./db.cfm">
 
 <cfloop array="#products#" index="product">
