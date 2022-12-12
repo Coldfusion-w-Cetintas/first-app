@@ -20,12 +20,32 @@
     id: 1,
     title: 'Canta',
     description: 'Timsah derisinden yapilmistir',
-    price: '$300'
+    price: '$300',
+    features: [
+      {
+        name: 'Renk',
+        value: 'Yesil'
+      },
+      {
+        name: 'Boyut',
+        value: 'xl'
+      }
+    ]
   },
   {
     id: 2,
     title: 'Ayakkabi',
     description: 'Dag ayakkabisi',
-    price: '$100'
+    price: '$100',
+    features: [
+      {
+        name: 'Renk',
+        value: 'Siyah'
+      },
+      {
+        name: 'Numara',
+        value: '36.5'
+      }
+    ]
   }
 ]>
