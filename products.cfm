@@ -43,7 +43,6 @@ function clearParams() {
           #product.title#
         </a>
       </h2>
-      <p>#product.description#</p>
       <h2>#product.price#</h2>
         
       <hr>
